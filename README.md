@@ -1,1 +1,2 @@
 # Eyes-Movement
+The starting project was working with CSS and JavaScript on eye movement and the eyes following the cursor. This was one of the first weeks really learning CSS and incorporating CSS, HTML & JS for a cohesive webpage. I modified the original code and included pupils & iris to track the mouse and added ears, nose, nostrils and a tongue wagging.  My dog Leah was sitting besides me when I was working on the original code and inspired the modifications.

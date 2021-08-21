@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #c2dee9;
+}
+
+.eyes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 160px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.pupil {
+  width: 40px;
+  height: 40px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.iris {
+  width: 150px;
+  height: 110px;
+  background: rgb(124, 85, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.LEar {
+  width: 140px;
+  height: 160px;
+  background-color: burlywood;
+  position: absolute;
+  display: inline-block;
+  top: 25%;
+  left: 25%;
+  transform: translateY(-50%);
+  border-radius: 90%;
+}
+.REar {
+  width: 140px;
+  height: 160px;
+  background-color: burlywood;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 325%;
+  transform: translateY(-50%);
+  border-radius: 90%;
+}
+.nose {
+  width: 100px;
+  height: 100px;
+  background-color: #6b4411;
+  position: absolute;
+  display: inline-block;
+  top: 200%;
+  left: -135%;
+  border-radius: 25%;
+}
+.Lnostril{ 
+  width: 30px;
+  height: 30px;
+  background: rgb(117, 0, 0);
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.Rnostril{ 
+  width: 30px;
+  height: 30px;
+  background: rgb(117, 0, 0);
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.tongue {
+  width: 100px;
+  height: 220px;
+  background-color: palevioletred;
+  position: absolute;
+  display: inline-block;
+  top: 275%;
+  left: -100%;
+  transform: translateY(-25%);
+  transform: translateX(-50%);
+  border-radius: 75%;
+}
